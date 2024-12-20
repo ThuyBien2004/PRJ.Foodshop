@@ -26,7 +26,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Update food!</h1>
+        <h1>Update Dish Information!</h1>
         <form action="FoodUpdateServlet" method="post">
             <select name="foodId" id="dish-select">
                 <option value="">--Please choose a food id--</option>
