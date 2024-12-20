@@ -21,6 +21,7 @@ public class DBUtils implements Serializable {
             String url = "jdbc:sqlserver://localhost:1433;databaseName=PRJFoodShop";
             
             Connection con = DriverManager.getConnection(url, "sa", "1234");
+            
             return con;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
